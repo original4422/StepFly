@@ -73,7 +73,7 @@ Before running StepFly, you need to configure your LLM API and MongoDB connectio
 
 #### Configure LLM API
 
-Configure in the configuration file:
+Configure in the [configuration file](./config/config.json):
 
 ```bash
 # Configure in config/config.json
@@ -154,7 +154,7 @@ This demo demonstrates how StepFly diagnoses a critical API gateway incident whe
 
 The troubleshooting process systematically checks service versions, feature flags, regional health, partitions, components, products, and finally discovers the critical workflow failure through business scenario analysis.
 
-**Setup**: First generate the demo database following instructions in `demo_data/README.md`:
+**Setup**: First generate the demo database following instructions in [`demo_data/README.md`](./demo_data/README.md):
 ```bash
 python demo_data/generate_distributed_system_data.py
 ```
@@ -178,7 +178,6 @@ For demo purposes, the mapping between incident IDs and TSGs is pre-configured i
 #### Annimation of the DAG execution:
 
 <picture>
-  <source srcset="asset/stepfly.gif">
   <img src="asset/stepfly.gif" width="400" height="200" alt="Description of my image">
 </picture>
 
