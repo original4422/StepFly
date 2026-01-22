@@ -175,10 +175,10 @@ python run_web.py
 
 For demo purposes, the mapping between incident IDs and TSGs is pre-configured in `config/incident_tsg_map.json`. The PlanDAGs for different TSGs are stored in `TSGs/PlanDAGs/`. We provide two versions of the same TSG: one for running in series and one for parallel execution. The default is the parallel version, and you can change it in the mapping file if needed. You can tune `max_executor_number` in `config/config.json` to control parallelism.
 
-#### Annimation of the DAG execution:
+#### Animation of the DAG execution:
 
 <picture>
-  <img src="asset/stepfly.gif" width="400" height="200" alt="Description of my image">
+  <img src="asset/stepfly.gif" width="400" height="200" alt="StepFly DAG execution animation">
 </picture>
 
 #### Watch the full demo here:
